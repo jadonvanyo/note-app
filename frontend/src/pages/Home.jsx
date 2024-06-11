@@ -3,7 +3,7 @@ import api from "../api"
 import Note from "../components/Note";
 
 function Home() {
-    const [notes, setNotes] = useState("");
+    const [notes, setNotes] = useState([]);
     const [content, setContent] = useState("");
     const [title, setTitle] = useState("");
 
